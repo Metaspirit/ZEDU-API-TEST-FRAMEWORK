@@ -1,0 +1,37 @@
+{
+  "name": "zedu-api-tests",
+  "version": "1.0.0",
+  "description": "**Automated API Testing Framework (JavaScript • Playwright • Dotenv)**",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "test:all": "playwright test",
+    "test:dev": "API_ENV=dev playwright test --project=api",
+    "test:qa": "API_ENV=qa playwright test --project=api",
+    "test:prod": "API_ENV=prod playwright test --project=api",
+    "report": "playwright show-report",
+    "schema:generate": "node src/utils/schema/schema-generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olaolaide/zedu-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/olaolaide/zedu-api-tests/issues"
+  },
+  "homepage": "https://github.com/olaolaide/zedu-api-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "ajv": "^8.13.0",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^16.4.5",
+    "faker": "^5.5.3",
+    "@faker-js/faker": "^8.4.1",
+    "json-schema-generator": "^1.1.1"
+  }
+}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="035606f4-fab6-4858-93df-7b06c1888363" name="Changes" comment="Removed .env.example">
+      <change afterPath="$PROJECT_DIR$/tests/profile.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/example.spec.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;olaolaide&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/olaolaide/zedu-api-tests.git&quot;,
+    &quot;accountId&quot;: &quot;902a9fea-b0f2-4e57-bf7d-de8a504ab537&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CxAFPyft1vuUkJaeUcOvYY4WAZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Playwright.DELETE /organisations/{id}.executor": "Run",
+    "Playwright.DELETE /organisations/{id}.should delete organisation successfully.executor": "Run",
+    "Playwright.DELETE /organisations/{id}.should return 400 for invalid ID format.executor": "Run",
+    "Playwright.DELETE /organisations/{id}.should return 404 for non-existent organisation.executor": "Run",
+    "Playwright.Detailed log analysis.captures full request/response detail for debugging.executor": "Run",
+    "Playwright.Detailed log analysis.executor": "Run",
+    "Playwright.GET /organisations.executor": "Run",
+    "Playwright.GET /organisations.should return list of organisations.executor": "Run",
+    "Playwright.GET /profile.get profile details.executor": "Run",
+    "Playwright.POST /organisations.should create new organisation.executor": "Run",
+    "Playwright.POST /organisations.should return 400 for missing required fields.executor": "Run",
+    "Playwright.POST /users.should create a new user and return 201.executor": "Run",
+    "Playwright.PUT /organisations/{id}.should return 400 for invalid ID format.executor": "Run",
+    "Playwright.Schema generation.generate and save user schema from live response.executor": "Run",
+    "Playwright.organisations.test.js.executor": "Run",
+    "Playwright.profile.test.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/Users/ola/Projects/zedu-api-tests/tests",
+    "nodejs_package_manager_path": "npm",
+    "npm.test:api.executor": "Run",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/api" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Playwright.PUT /organisations/{id}.should return 400 for invalid ID format">
+    <configuration name="GET /profile.get profile details" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/profile.test.js" />
+      <test-names>
+        <test-name value="GET /profile" />
+        <test-name value="get profile details" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="POST /organisations.should create new organisation" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/organisations.test.js" />
+      <test-names>
+        <test-name value="POST /organisations" />
+        <test-name value="should create new organisation" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PUT /organisations/{id}.should return 400 for invalid ID format" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/organisations.test.js" />
+      <test-names>
+        <test-name value="PUT /organisations/{id}" />
+        <test-name value="should return 400 for invalid ID format" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="organisations.test.js" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tests/organisations.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="profile.test.js" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tests/profile.test.js" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Playwright.PUT /organisations/{id}.should return 400 for invalid ID format" />
+        <item itemvalue="Playwright.organisations.test.js" />
+        <item itemvalue="Playwright.profile.test.js" />
+        <item itemvalue="Playwright.GET /profile.get profile details" />
+        <item itemvalue="Playwright.POST /organisations.should create new organisation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="035606f4-fab6-4858-93df-7b06c1888363" name="Changes" comment="" />
+      <created>1777316743628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777316743628</updated>
+      <workItem from="1777316745037" duration="13211000" />
+      <workItem from="1777367212197" duration="5247000" />
+      <workItem from="1777373173954" duration="485000" />
+      <workItem from="1777406642001" duration="1196000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added Project Dependencies">
+      <option name="closed" value="true" />
+      <created>1777317392183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777317392183</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed .env.example">
+      <option name="closed" value="true" />
+      <created>1777317625682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777317625682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Project Dependencies" />
+    <MESSAGE value="Removed .env.example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed .env.example" />
+  </component>
+</project>
